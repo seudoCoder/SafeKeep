@@ -12,9 +12,9 @@
         android:layout_width="63dp"
         android:layout_height="60dp"
         android:indeterminateTint="@color/white"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="440dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="515dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
