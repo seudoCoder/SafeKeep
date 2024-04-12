@@ -20,7 +20,7 @@ public class Utility {
         return FirebaseFirestore.getInstance().collection("notes").document(currentUser.getUid()).collection("my_notes");
     }
     static String timestampToString(Timestamp timestamp){
-        return new SimpleDateFormat("dd/mm/yyyy").format(timestamp.toDate());
+        return new SimpleDateFormat("dd/MM/yyyy").format(timestamp.toDate());
 
     }
 }
